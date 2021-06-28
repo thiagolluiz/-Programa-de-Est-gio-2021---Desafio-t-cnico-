@@ -1,0 +1,75 @@
+===============================
+Região de origem: Sudeste
+Região de destino: Norte
+Código Loggi 555
+Código do vendedor do produto: 123
+Tipo do produto: Brinquedos
+
+===============================
+Região de origem: Sul
+Região de destino: Centro-Oeste
+Código Loggi 555
+Código do vendedor do produto: 874
+Tipo do produto: Bebidas
+
+===============================
+Região de origem: Centro-Oeste
+Região de destino: Nordeste
+Código Loggi 555
+Código do vendedor do produto: 123
+Tipo do produto: Eletrônicos
+
+===============================
+Região de origem: Norte
+Região de destino: Norte
+Código Loggi 555
+Código do vendedor do produto: 123
+Tipo do produto: Brinquedos
+
+===============================
+Região de origem: Centro-Oeste
+Região de destino: Nordeste
+Código Loggi 555
+Código do vendedor do produto: 124
+Tipo do produto: Jóias
+
+===============================
+Região de origem: Norte
+Região de destino: Sudeste
+Código Loggi 555
+Código do vendedor do produto: 123
+Tipo do produto: Jóias
+
+===============================
+Região de origem: Centro-Oeste
+Região de destino: Sudeste
+Código Loggi 555
+Código do vendedor do produto: 123
+Tipo do produto: Bebidas
+
+===============================
+Região de origem: Sudeste
+Região de destino: Sul
+Código Loggi 555
+Código do vendedor do produto: 845
+Tipo do produto: Eletrônicos
+
+===============================
+Região de origem: Sul
+Região de destino: Centro-Oeste
+Código Loggi 555
+Código do vendedor do produto: 874
+Tipo do produto: Jóias
+
+===============================
+Região de origem: Centro-Oeste
+Região de destino: Nordeste
+Código Loggi 555
+Código do vendedor do produto: 123
+Tipo do produto: Bebidas
+
+O vendedor 123 vendeu: 
+O vendedor 874: 
+O vendedor 845: 
+O vendedor 124: 
+O vendedor 654: 
