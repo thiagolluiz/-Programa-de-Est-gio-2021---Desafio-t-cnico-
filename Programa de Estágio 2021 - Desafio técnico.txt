@@ -68,8 +68,8 @@ Código Loggi 555
 Código do vendedor do produto: 123
 Tipo do produto: Bebidas
 
-O vendedor 123 vendeu: 
-O vendedor 874: 
-O vendedor 845: 
-O vendedor 124: 
-O vendedor 654: 
+O vendedor 123 vendeu: 6
+O vendedor 874 vendeu: 2
+O vendedor 845 vendeu: 1
+O vendedor 124 vendeu: 2
+O vendedor 654 vendeu: 1

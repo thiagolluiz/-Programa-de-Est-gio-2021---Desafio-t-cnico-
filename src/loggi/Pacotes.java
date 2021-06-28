@@ -12,6 +12,12 @@ public class Pacotes {
 	public static void main(String[] args) {
 		// Pacotes = new String[]{"888333555999000"};
 		
+		int vendedor123 = 0;
+		int vendedor124 = 0;
+		int vendedor654 = 0;
+		int vendedor845 = 0;
+		int vendedor874 = 0;
+		
 		// análise código a código
 		for (int i = 0; i < Pacotes.length; i++) {
 			String pacote = Pacotes[i];
@@ -30,8 +36,25 @@ public class Pacotes {
 			String regiao = buscaRegiao(codigoRegiao);
 			String destino = buscaRegiao(codigoDestino);
 			String produto = buscaProduto(codigoProduto);
-			//String vendedor = buscaVendedor(codigoVendedor);
-
+			//
+		
+			if (codigoVendedor.equals("123")) {
+				vendedor123++;
+			}
+			if (codigoVendedor.equals("124")) {
+				vendedor124++;
+			}
+			if (codigoVendedor.equals("654")) {
+				vendedor654++;
+			}
+			if (codigoVendedor.equals("845")) {
+				vendedor845++;
+			}
+			if (codigoVendedor.equals("874")) {
+				vendedor874++;
+			}
+			
+			//
 			System.out.println("Código: " + pacote);
 
 			// valida cada campo do código
@@ -63,14 +86,14 @@ public class Pacotes {
 			System.out.println();
 		}
 			// Imprimindo o contador de vendas de cada vendedor
-			String arq = "Programa de Estágio 2021 - Desafio técnico.txt";
-			String texto = "O vendedor 123 vendeu: " //+ vendedor123
-				+"\nO vendedor 874 vendeu: " //+ vendedor874
-				+"\nO vendedor 845 vendeu: " //+ vendedor845
-				+"\nO vendedor 124 vendeu: " //+ vendedor124
-				+"\nO vendedor 654 vendeu: "; //+ vendedor654 ;
+			 String arq = "Programa de Estágio 2021 - Desafio técnico.txt";
+			String texto = "O vendedor 123 vendeu: " + vendedor123
+				+"\nO vendedor 874 vendeu: " + vendedor874
+				+"\nO vendedor 845 vendeu: " + vendedor845
+				+"\nO vendedor 124 vendeu: " + vendedor124
+				+"\nO vendedor 654 vendeu: " + vendedor654 ;	
 			Imprimir.Write(arq,texto);
-		
+			
 }
 	private static String buscaRegiao(String codigoDestino) {
 		switch (codigoDestino) {
@@ -103,36 +126,9 @@ public class Pacotes {
 		default:
 			return null;
 		}
+		
 	}
 		
-		/*public static String buscaVendedor(String codigoVendedor) {
-			int vendedor123 = 0 ;
-			int vendedor874 = 0 ;
-			int vendedor845 = 0 ;	
-			int vendedor124 = 0 ;
-			int vendedor654 = 0 ;
-
-			switch (codigoVendedor) {
-			case "123":
-				vendedor123 = vendedor123 + 1;
-				break;
-			case "874":
-				vendedor874 = vendedor874 + 1;
-				break;
-			case "845":
-				vendedor845 = vendedor845 + 1;
-				break;
-			case "124":
-				vendedor124 = vendedor124 + 1;
-				break;
-			case "654":
-				vendedor654 = vendedor654 + 1;
-				break;
-			default:
-				System.out.println();;
-			}
-		}
-	*/
 }
 
 	
